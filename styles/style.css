@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root{
+ --ff-instrument-serif: 'Instrument Serif', serif;
+ --ff-montserrat: 'Montserrat', sans-serif;
+
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+ 
+}
+
+
+.hero{
+  width: 100;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero h1{
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+span{
+   
+   color:#ff2963;
+
+}
+
+textarea{
+  width: 600px;
+  height: 250px;
+  background: #403d84;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  padding: 1.5rem;
+  color: aquamarine;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 30px;
+}
+
+textarea::placeholder{
+  font-size: 16px;
+  color: #ddd ;
+
+   
+}
+
+.row{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+button{
+
+  background: #ff2963;
+  color: #fff;
+  font-size: 16 ;
+  padding: 10px 30px;
+  border-radius: 35px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+
+}
+
+select{
+   flex: 1;
+   color: #fff;
+   background: #403d84;
+   height: 50px;
+   padding: 0 20px;
+   outline: 0;
+   border: 0;
+   border-radius: 35px;
+   /* appearance: ; */
+}
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  /* customize */
+  background-color: #1c2042;
+  color: white;
+  border: 2px solid #1c2042;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
